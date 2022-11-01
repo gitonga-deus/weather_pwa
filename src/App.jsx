@@ -31,7 +31,7 @@ const App = () => {
 						<sup>{weather.sys.country}</sup>
 					</h2>
 					<div className="text-3xl font-bold mt-[10px] text-white text-center">
-						{Math.round(weather.main.temp)}
+						{Math.round(weather.main.temp)}{" "}
 						<sup>&deg;C</sup>
 					</div>
 					<div className="flex flex-col items-center">
