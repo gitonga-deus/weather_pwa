@@ -3,24 +3,24 @@
 	"name": "PWA Weather App",
 	"icons": [
 		{
-			"src": "/img/weather128x128.png",
+			"src": "img/weather128x128.png",
 			"type": "image/png",
 			"sizes": "128x128",
 			"purpose": "maskable"
 		},
 		{
-			"src": "/img/weather192x192.png",
+			"src": "img/weather192x192.png",
 			"type": "image/png",
 			"sizes": "192x192",
 			"purpose": "maskable"
 		},
 		{
-			"src": "/img/weather512x512.png",
+			"src": "img/weather512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
 	],
-	"start_url": ".",
+	"start_url": "./dist",
 	"display": "standalone",
 	"background_color": "#0f0e13",
 	"theme_color": "#0f0e13"
